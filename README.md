@@ -3,7 +3,7 @@ Testing CuPyNumeric by Nvidia
 
 
 
-Note some functions are not yet implemented thus mixing CPU/GPU 
+Note some functions are not yet implemented thus mixing CPU/GPU:
 
 ```
 Set CUPYNUMERIC_FALLBACK_STACKTRACE=1 and re-run to include a full stack trace with this warning.
