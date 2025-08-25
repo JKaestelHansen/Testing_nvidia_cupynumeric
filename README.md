@@ -4,6 +4,7 @@ Testing CuPyNumeric by Nvidia
 
 
 Note some functions are not yet implemented thus mixing CPU/GPU:
+eg. array.mean(axis=(1,2)) cant run
 
 ```
 Set CUPYNUMERIC_FALLBACK_STACKTRACE=1 and re-run to include a full stack trace with this warning.
@@ -17,4 +18,7 @@ Set CUPYNUMERIC_FALLBACK_STACKTRACE=1 and re-run to include a full stack trace w
 
 
 TypeError: cuPyNumeric does not support dtype=<U104
+
+
+NotImplementedError: cupynumeric.mean only supports int types for `axis` currently
 ```
